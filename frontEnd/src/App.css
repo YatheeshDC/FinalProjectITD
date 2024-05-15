@@ -1,0 +1,416 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bg-body-tertiary{
+  padding: 0%;
+  margin: 0%;
+}
+
+.firstNav{
+  position: sticky;
+  top: 0;
+  z-index: 2000;
+}
+
+.me-auto{
+  position: sticky;
+  top: 0;
+}
+
+.options:hover{
+    border-bottom: 3px solid red;
+}
+
+.diffFont{
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 900;
+  font-style: normal;
+ } 
+
+
+.cards{
+    width: 15rem;
+    height: 11rem;
+    background-color: BlanchedAlmond;
+    border: yellow 10px;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease; 
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.FaArrowRight:hover{
+ margin-left: 5px;
+}
+
+.insideCont{
+margin-top: 4rem;
+}
+
+.agentCard{
+  border-radius: 10px;
+  height: 250px;
+}
+
+.Bgclr{
+  color:black;
+  /* background-color: rgb(222, 211, 69); */
+  background-color: #00ffbf;
+  border-radius: 10px;
+}
+
+.BgColorAge{
+    background-color: ffff;
+  }
+
+ .FontColor{  
+    color: black;  
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  .MainCardAge{
+    border-radius: 10px;
+    height: 300px;
+  }
+
+  .TextColorAge{
+    font-size: 13px;
+    color: blue;
+  } 
+
+.propertyCards{
+  width: 14rem;
+  height: 22rem;
+  margin-bottom: 5rem;
+}
+
+.propertyImages{
+  width: 13rem;
+  height: 9rem;
+}
+
+.grids{
+  display: grid;
+  align-items:center;
+}
+
+.searchRoundeed{
+  border-radius: 40px;
+}
+
+.advContainer{
+  margin-top: 5rem;
+}
+.advCards{
+  width: 14rem;
+  height: 16rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease; 
+}
+
+.advCards:hover{
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.expCard{
+  margin: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease; 
+}
+
+.expCard:hover{
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.SerCards{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease; 
+}
+
+.SerCards:hover{
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+/* 
+.realVideo{
+  margin: 1rem;
+} */
+
+.badge{
+  margin-left: 4rem;
+  margin-top: 0rem;
+  width: 5rem;
+  height: 10%;
+  font-size:small;
+}
+
+
+.ColumnsGrid{
+ height: 24rem;
+ background-color: antiquewhite;
+ margin-bottom: 5rem;
+ /* margin-top: 5rem; */
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ transition: box-shadow 0.3s ease;
+}
+
+.ColumnsGrid{
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.video {
+  margin-top: 12px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.video iframe {
+  width: 40%;
+  height: 60%;
+  border-radius: 20%;
+  margin-right: 20px;
+}
+
+.ColumnsGrid{
+  /* margin-top: 5rem; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease; 
+}
+
+.ColumnsGrid:hover{
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer{
+ background-color:beige;
+}
+
+.footmrgin{
+  margin-right: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.footmrgin2{
+  margin-right: 50px;
+  text-decoration: none;
+  color: black;
+}
+
+/* home2 */
+.images{
+  width: 25rem;
+}
+.images22{
+  width: 7rem;
+  position: relative;
+  bottom: 422px;
+}
+.images33{
+  width: 7rem;
+  margin-left: 1rem;
+  position: relative;
+  bottom: 423px;
+}
+
+.iconDetails{
+  background-color: lightgrey;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+  position: relative;
+  /* margin-top: 10rem; */
+  /* bottom: 120px; */
+}
+.carpetArea{
+  position: relative;
+  left: 28rem;
+  bottom: 13rem;
+  font-size: small;
+}
+
+.floor{
+  position: relative;
+  left: 38rem;
+  font-size: small;
+  bottom: 18rem;
+}
+.status{
+  position: relative;
+  left: 52rem;
+  font-size: small;
+  bottom: 22rem;
+}
+.facing{
+  position: relative;
+  left: 28rem;
+  bottom: 18rem;
+  font-size: small;
+}
+.lifts{
+  position: relative;
+  left: 38rem;
+  font-size: small;
+  bottom: 21rem;
+}
+.furnish{
+  position: relative;
+  left: 52rem;
+  font-size: small;
+  bottom: 25rem;
+}
+.period{
+  position: relative;
+  left: 28rem;
+  bottom: 24rem;
+  /* font-size: small; */
+}
+
+.liner{
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+  position: relative;
+  bottom: 18rem;
+}
+.owner{
+  position: relative;
+  bottom: 22rem;
+  border-radius: 10px;
+  color: white;
+  padding: 5px;
+  background-color: red;
+  border: 1px solid red;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.owner22 {
+  position: relative;
+  bottom: 22rem;
+  border-radius: 10px;
+  color: red; /* Default text color */
+  background-color: #f8f9fa; /* Default background color */
+  border: 1px solid red;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color red 0.3s ease, color 0.3s ease; /* Smooth transition effect for both background color and text color */
+}
+
+.owner22:hover {
+  background-color: red; /* Background color on hover */
+  color: white; /* Text color on hover */
+}
+
+.owner33{
+  position: relative;
+  bottom: 22rem;
+  left: 25rem;
+}
+
+.tab{
+  background-color: white;
+  width: 64rem;
+  height: 25rem;
+  cursor: pointer;
+  margin-bottom: 5rem;
+}
+
+.move{
+  position: relative;
+  left: 14rem;
+}
+
+.road{
+  position: relative;
+  left: 4rem;
+}
+.tab22{
+  background-color: white;
+  /* width: 62rem; */
+  /* width: 732%; */
+  width: 71vw;
+  height: 107vh;
+  /* height: 107vb; */
+  /* height: 40rem; */
+  cursor: pointer;
+  margin-bottom: 5rem;
+}
+.construction{
+  position: relative;
+  left: 0rem;
+}
+
+.number{
+  position: relative;
+  left: 10rem;
+}
+
+.report{
+  color: red;
+  position: relative;
+  left: 1rem;
+}
+.rate{
+  position: relative;
+  left: 5rem;
+}
+.ads{
+  position: relative;
+  left: 7rem;
+}
