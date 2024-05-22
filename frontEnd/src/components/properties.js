@@ -573,15 +573,15 @@ function Property() {
                   </Typography>
                 </CardContent>
               </CardActionArea>
-              <CardActions>
+              <CardActions className="card-actions">
                 <Link to="/more">
-                  <button style={{background:'red', color:'white', borderRadius:'1rem'}}>
+                  <button className="action-button" onClick={() => console.log('View Details clicked')}>
                     View Details
                   </button>
                 </Link>
-                <button style={{background:'red', color:'white', borderRadius:'1rem'}} onClick={() => addToCart(card)}>
+                <button className="action-button" onClick={() => addToCart(card)}>
                   Add to wishlist
-                  </button>
+                </button>
               </CardActions>
             </Card>
           </Col>
@@ -598,3 +598,4 @@ function Property() {
 }
 
 export default Property;
+

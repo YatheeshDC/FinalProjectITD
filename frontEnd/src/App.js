@@ -7,6 +7,7 @@ import UserSignup from './screens/userSignup';
 import Profiledetail from './screens/pdetail';
 import ListProduct from './components/backfetch';
 import AddProduct from './components/postproperty2';
+import Buyproducts from './components/buyproducts';
 
 // import {Browser Router}
 
@@ -23,6 +24,7 @@ function App() {
             <Route path='/pdetail' element={<Profiledetail/>}/>
             <Route path='/backfetch' element={<ListProduct/>}/>
             <Route path='/Sign' element={<AddProduct/>}/>
+            <Route path='/ready' element={<Buyproducts/>}/>
 
 
 

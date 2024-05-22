@@ -1,248 +1,3 @@
-// import Container from 'react-bootstrap/Container';
-// import Nav from 'react-bootstrap/Nav';
-// import Navbar from 'react-bootstrap/Navbar';
-// import NavDropdown from 'react-bootstrap/NavDropdown';
-
-// function Nav2() {
-//   return (
-//     <Navbar expand="lg" className="bg-body-tertiary">
-    
-//       <Container className='secondNav'>
-//           <Nav className="me-auto">
-//           <Nav>
-//             <NavDropdown className='mx-3' title="Buy" id="basic-nav-dropdown">
-//             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-//               <NavDropdown.Item href="#action/3.2">
-//                 Another action
-//               </NavDropdown.Item>
-//               <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-//               <NavDropdown.Divider />
-//               <NavDropdown.Item href="#action/3.4">
-//                 Separated link
-//               </NavDropdown.Item>
-//             </NavDropdown>
-//           </Nav>
-//           <Nav>
-//             <NavDropdown className='mx-3' title="Rent" id="basic-nav-dropdown">
-//             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-//               <NavDropdown.Item href="#action/3.2">
-//                 Another action
-//               </NavDropdown.Item>
-//               <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-//               <NavDropdown.Divider />
-//               <NavDropdown.Item href="#action/3.4">
-//                 Separated link
-//               </NavDropdown.Item>
-//             </NavDropdown>
-//           </Nav>
-//           <Nav>
-//             <NavDropdown className='mx-3' title="Sell" id="basic-nav-dropdown">
-//             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-//               <NavDropdown.Item href="#action/3.2">
-//                 Another action
-//               </NavDropdown.Item>
-//               <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-//               <NavDropdown.Divider />
-//               <NavDropdown.Item href="#action/3.4">
-//                 Separated link
-//               </NavDropdown.Item>
-//             </NavDropdown>
-         
-         
-//           <NavDropdown className='mx-3'  title="Home Loans" id="basic-nav-dropdown ">
-//               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-//               <NavDropdown.Item href="#action/3.2">
-//                 Another action
-//               </NavDropdown.Item>
-//               <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-//               <NavDropdown.Divider />
-//               <NavDropdown.Item href="#action/3.4">
-//                 Separated link
-//               </NavDropdown.Item>
-//             </NavDropdown>
-            
-//           </Nav>
-
-//           <Nav>
-//             <NavDropdown className='mx-3' title="Property Services" id="basic-nav-dropdown">
-//             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-//               <NavDropdown.Item href="#action/3.2">
-//                 Another action
-//               </NavDropdown.Item>
-//               <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-//               <NavDropdown.Divider />
-//               <NavDropdown.Item href="#action/3.4">
-//                 Separated link
-//               </NavDropdown.Item>
-//             </NavDropdown>
-//           </Nav>
-
-//           <Nav>
-//             <NavDropdown className='mx-3' title="MB Advice" id="basic-nav-dropdown">
-//             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-//               <NavDropdown.Item href="#action/3.2">
-//                 Another action
-//               </NavDropdown.Item>
-//               <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-//               <NavDropdown.Divider />
-//               <NavDropdown.Item href="#action/3.4">
-//                 Separated link
-//               </NavDropdown.Item>
-//             </NavDropdown>
-//           </Nav>
-
-//           <Nav>
-//             <NavDropdown className='mx-3' title="Help" id="basic-nav-dropdown">
-//             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-//               <NavDropdown.Item href="#action/3.2">
-//                 Another action
-//               </NavDropdown.Item>
-//               <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-//               <NavDropdown.Divider />
-//               <NavDropdown.Item href="#action/3.4">
-//                 Separated link
-//               </NavDropdown.Item>
-//             </NavDropdown>
-//           </Nav>
-//           </Nav>
-//       </Container>
-//     </Navbar>
-
-//   );
-// }
-
-// export default Nav2;
-// import Container from 'react-bootstrap/Container';
-// import Nav from 'react-bootstrap/Nav';
-// import Navbar from 'react-bootstrap/Navbar';
-// import NavDropdown from 'react-bootstrap/NavDropdown';
-// import { Badge } from 'react-bootstrap';
-// import App from '../App';
-
-
-
-// function Nav2() {
-//   return (
-//     <Navbar expand="lg" className="bg-body-tertiary">
-    
-//       <Container>
-        
-//         {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
-//         {/* <Navbar.Collapse id="basic-navbar-nav"> */}
-//           <Nav className="me-auto">
-//           <Nav>
-//             <NavDropdown className='mx-3' title="Buy" id="basic-nav-dropdown">
-//             <NavDropdown.Item className='navitem' href="#action/3.1">Action</NavDropdown.Item>
-//               <NavDropdown.Item className='navitem' href="#action/3.2">
-//                 Another action
-//               </NavDropdown.Item>
-//               <NavDropdown.Item className='navitem' href="#action/3.3">Something</NavDropdown.Item>
-//               <NavDropdown.Divider />
-//               <NavDropdown.Item className='navitem' href="#action/3.4">
-//                 Separated link
-//               </NavDropdown.Item>
-//             </NavDropdown>
-//           </Nav>
-//           <Nav>
-//             <NavDropdown className='mx-3' title="Rent" id="basic-nav-dropdown">
-//             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-//               <NavDropdown.Item href="#action/3.2">
-//                 Another action
-//               </NavDropdown.Item>
-//               <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-//               <NavDropdown.Divider />
-//               <NavDropdown.Item href="#action/3.4">
-//                 Separated link
-//               </NavDropdown.Item>
-//             </NavDropdown>
-//           </Nav>
-//           <Nav>
-//             <NavDropdown className='mx-3' title="Sell" id="basic-nav-dropdown">
-//             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-//               <NavDropdown.Item href="#action/3.2">
-//                 Another action
-//               </NavDropdown.Item>
-//               <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-//               <NavDropdown.Divider />
-//               <NavDropdown.Item href="#action/3.4">
-//                 Separated link
-//               </NavDropdown.Item>
-//             </NavDropdown>
-         
-         
-//           <NavDropdown className='mx-3'  title="Home Loans" id="basic-nav-dropdown ">
-//               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-//               <NavDropdown.Item href="#action/3.2">
-//                 Another action
-//               </NavDropdown.Item>
-//               <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-//               <NavDropdown.Divider />
-//               <NavDropdown.Item href="#action/3.4">
-//                 Separated link
-//               </NavDropdown.Item>
-//             </NavDropdown>
-            
-//           </Nav>
-
-//           <Nav>
-//             <NavDropdown className='mx-3' title="Property Services" id="basic-nav-dropdown">
-//             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-//               <NavDropdown.Item href="#action/3.2">
-//                 Another action
-//               </NavDropdown.Item>
-//               <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-//               <NavDropdown.Divider />
-//               <NavDropdown.Item href="#action/3.4">
-//                 Separated link
-//               </NavDropdown.Item>
-//             </NavDropdown>
-//           </Nav>
-
-//           <Nav>
-//             <NavDropdown className='mx-3' title="MB Advice " id="basic-nav-dropdown">
-           
-//             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-//               <NavDropdown.Item href="#action/3.2">
-//                 Another action
-//               </NavDropdown.Item>
-//               <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-//               <NavDropdown.Divider />
-//               <NavDropdown.Item href="#action/3.4">
-//                 Separated link
-//               </NavDropdown.Item>
-//             </NavDropdown>
-//           </Nav>
-
-//           <Nav>
-//             <NavDropdown className='mx-3' title="Help" id="basic-nav-dropdown">
-//             <NavDropdown.Item href="#action/3.1">action</NavDropdown.Item>
-           
-//               <NavDropdown.Item href="#action/3.2">
-//                 Another action
-//               </NavDropdown.Item>
-//               <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-//               <NavDropdown.Divider />
-//               <NavDropdown.Item href="#action/3.4">
-//                 Separated link
-//               </NavDropdown.Item>
-//             </NavDropdown>
-//           </Nav>
-//           </Nav>
-//             {/* <Nav.Link href="#home">Home</Nav.Link>
-//             <Nav.Link href="#link">Link</Nav.Link> */}
-
-//         {/* </Navbar.Collapse> */}
-//       </Container>
-//     </Navbar>
-
-
-//   );
-// }
-
-// export default Nav2;
-
-
-
 import React, { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -263,7 +18,7 @@ function Nav2() {
   };
 
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-body-tertiary" style={{zIndex:'2'}}>
       <Container>
         <Nav className="me-auto" onMouseLeave={handleMouseLeave}>
           <NavDropdown
@@ -281,7 +36,7 @@ function Nav2() {
 <NavDropdown.Item href="#action/3.1"> Popular Choices</NavDropdown.Item> 
 <NavDropdown.Divider />
 
-<NavDropdown.Item href="https://www.magicbricks.com/ready-to-move-flats-in-bangalore-pppfs">Ready To Move</NavDropdown.Item>
+<NavDropdown.Item href="/ready">Ready To Move</NavDropdown.Item>
 
 <NavDropdown.Item href="#action/3.2"> Owner Properties
 </NavDropdown.Item> 
@@ -497,7 +252,7 @@ function Nav2() {
 <NavDropdown.Divider />
 
 <Link to="/Sign">
-<Nav.Link  href="/Sellproperty" style={{color:'black'}}>
+<Nav.Link  href="/Sellproperty" style={{color:'black', textDecoration:'none'}}>
     Post Property <Badge bg="warning" text="dark" style={{borderRadius:'40px'}}>New</Badge>
 </Nav.Link></Link>
 <NavDropdown.Item href="https://www.magicbricks.com/ready-to-move-flats-in-bangalore-pppfs">Ready To Move</NavDropdown.Item>
@@ -564,11 +319,9 @@ function Nav2() {
             show={showDropdown === 'home-loans'}
             onMouseEnter={() => handleMouseEnter('home-loans')}
           >
-            <NavDropdown.Item className='navitem' href="#action/3.1">Action</NavDropdown.Item>
-            <NavDropdown.Item className='navitem' href="#action/3.2">Another action</NavDropdown.Item>
-            <NavDropdown.Item className='navitem' href="#action/3.3">Something</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item className='navitem' href="#action/3.4">Separated link</NavDropdown.Item>
+            <NavDropdown.Item className='navitem' href="#action/3.1">Home Loans</NavDropdown.Item>
+            <NavDropdown.Item className='navitem' href="#action/3.2">Balance Transfer</NavDropdown.Item>
+            <NavDropdown.Item className='navitem' href="#action/3.3">Loan against property</NavDropdown.Item>
           </NavDropdown>
 
           <NavDropdown
@@ -578,15 +331,12 @@ function Nav2() {
             show={showDropdown === 'property-services'}
             onMouseEnter={() => handleMouseEnter('property-services')}
           >
-         <NavDropdown.Item href="#action/3.1"> INDIA</NavDropdown.Item> 
+         <NavDropdown.Item href="#action/3.1">Rent Agreement</NavDropdown.Item> 
 <NavDropdown.Item href="#action/3.2"> 
 </NavDropdown.Item> 
-<NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-<NavDropdown.Divider />
-<NavDropdown.Item href="#action/3.4">
-  Separated link
-</NavDropdown.Item>
-          </NavDropdown>
+<NavDropdown.Item href="#action/3.3">Generate Rent Receipt</NavDropdown.Item>
+<NavDropdown.Item href="#action/3.3">Tenant Verification</NavDropdown.Item>
+</NavDropdown>
 
           <NavDropdown
             className='mx-3'
@@ -595,11 +345,10 @@ function Nav2() {
             show={showDropdown === 'mb-advice'}
             onMouseEnter={() => handleMouseEnter('mb-advice')}
           >
-        <NavDropdown.Item className='navitem' href="#action/3.1">Action</NavDropdown.Item>
-            <NavDropdown.Item className='navitem' href="#action/3.2">Another action</NavDropdown.Item>
-            <NavDropdown.Item className='navitem' href="#action/3.3">Something</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item className='navitem' href="#action/3.4">Separated link</NavDropdown.Item>
+        <NavDropdown.Item className='navitem' href="#action/3.1">Insights</NavDropdown.Item>
+            <NavDropdown.Item className='navitem' href="#action/3.2">Research</NavDropdown.Item>
+            <NavDropdown.Item className='navitem' href="#action/3.3">Prop Index</NavDropdown.Item>
+            <NavDropdown.Item className='navitem' href="#action/3.4">Find Pincode</NavDropdown.Item>
           </NavDropdown>
 
           <NavDropdown
@@ -609,11 +358,8 @@ function Nav2() {
             show={showDropdown === 'help'}
             onMouseEnter={() => handleMouseEnter('help')}
           >
-           <NavDropdown.Item className='navitem' href="#action/3.1">Action</NavDropdown.Item>
-            <NavDropdown.Item className='navitem' href="#action/3.2">Another action</NavDropdown.Item>
-            <NavDropdown.Item className='navitem' href="#action/3.3">Something</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item className='navitem' href="#action/3.4">Separated link</NavDropdown.Item>
+           <NavDropdown.Item className='navitem' href="#action/3.1">Help Center</NavDropdown.Item>
+            <NavDropdown.Item className='navitem' href="#action/3.2">Sales Enquiry</NavDropdown.Item>
           </NavDropdown>
         </Nav>
       </Container>
